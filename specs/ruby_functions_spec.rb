@@ -1,6 +1,7 @@
 require( 'minitest/autorun' )
 require( 'minitest/rg' )
 require_relative( '../ruby_functions_practice' )
+include Math
 
 class Functions_Practice < MiniTest::Test
 
@@ -76,7 +77,7 @@ class Functions_Practice < MiniTest::Test
   #Given the radius of a sphere calculate the volume
   def test_volume_of_sphere()
     sphere_result = volume_of_sphere(3)
-    assert_equal(113.1, sphere_result)
+    assert_equal(113.09733552923254, sphere_result)
   end
 
 
