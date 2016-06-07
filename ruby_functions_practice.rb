@@ -97,5 +97,5 @@ def volume_of_cube(l, b, h)
 end
 
 def volume_of_sphere(r)
-  return (4 / 3) * Math.pi * r ** 3
+  return (4.0 / 3) * Math.PI * (r ** 3)
 end
